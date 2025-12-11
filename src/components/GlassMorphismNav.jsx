@@ -22,13 +22,6 @@ export function GlassmorphismNav() {
       if (typeof window !== "undefined") {
         const currentScrollY = window.scrollY;
 
-        console.log(
-          "[v0] Scroll event - currentScrollY:",
-          currentScrollY,
-          "lastScrollY:",
-          lastScrollY.current
-        );
-
         // Only hide/show after scrolling past 50px to avoid flickering at top
         if (currentScrollY > 50) {
           if (
@@ -81,7 +74,7 @@ export function GlassmorphismNav() {
         behavior: "smooth",
       });
     } else {
-      console.log("[v0] Element not found for:", href);
+      console.log("Element not found for:", href);
     }
     setIsOpen(false);
   };
