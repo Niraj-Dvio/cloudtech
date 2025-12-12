@@ -96,7 +96,7 @@ export function GlassmorphismNav() {
         }}
       >
         {/* Main Navigation */}
-        <div className="w-[90vw] max-w-xs md:max-w-4xl mx-auto">
+        <div className="w-[90vw] md:max-w-4xl mx-auto">
           <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-full px-4 py-3 md:px-6 md:py-2">
             <div className="flex items-center justify-between">
               {/* Logo */}
@@ -106,12 +106,8 @@ export function GlassmorphismNav() {
               >
                 <div
                   className="text-transparent bg-clip-text bg-linear-to-r from-blue-400 to-purple-500 
-            font-semibold text-xl drop-shadow-lg cursor-target p-2"
+            font-semibold text-xl drop-shadow-lg p-2"
                 >
-                  {/* <div
-                  className="text-transparent bg-clip-text bg-linear-to-r from-teal-400 to-blue-300 
-            font-semibold text-xl drop-shadow-lg cursor-target p-2"
-                > */}
                   CloudTech
                 </div>
               </Link>
@@ -123,7 +119,7 @@ export function GlassmorphismNav() {
                     <Link
                       key={item.name}
                       to={item.href}
-                      className="text-white/80 hover:text-white hover:scale-105 transition-all duration-200 font-medium cursor-target p-2"
+                      className="text-white/80 hover:text-white hover:scale-105 transition-all duration-200 font-medium cursor-pointer p-2"
                     >
                       {item.name}
                     </Link>
@@ -143,7 +139,7 @@ export function GlassmorphismNav() {
               <div className="hidden md:block">
                 <Link
                   to="/contact-us"
-                  className="relative bg-white hover:bg-gray-50 text-black font-medium px-6 py-2 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-105 hover:shadow-lg group cursor-target"
+                  className="relative bg-white hover:bg-gray-50 text-black font-medium px-6 py-2 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-105 hover:shadow-lg group cursor-pointer"
                 >
                   <span className="mr-2">Contact</span>
                   <ArrowRight size={16} />
@@ -202,7 +198,7 @@ export function GlassmorphismNav() {
                   <Link
                     key={item.name}
                     to={item.href}
-                    className={`text-white/80 hover:text-white hover:bg-white/10 rounded-lg px-3 py-3 text-left transition-all duration-300 font-medium transform hover:scale-[1.02] hover:translate-x-1 cursor-target ${
+                    className={`text-white/80 hover:text-white hover:bg-white/10 rounded-lg px-3 py-3 text-left transition-all duration-300 font-medium transform hover:scale-[1.02] hover:translate-x-1 cursor-pointer ${
                       isOpen ? "animate-mobile-menu-item" : ""
                     }`}
                     style={{
@@ -216,7 +212,7 @@ export function GlassmorphismNav() {
                 <div className="h-px bg-white/10 my-2" />
                 <Link
                   to="/contact-us"
-                  className={`relative bg-white hover:bg-gray-50 text-black font-medium px-6 py-3 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-105 hover:shadow-lg group transform cursor-target ${
+                  className={`relative bg-white hover:bg-gray-50 text-black font-medium px-6 py-3 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-105 hover:shadow-lg group transform cursor-pointer ${
                     isOpen ? "animate-mobile-menu-item" : ""
                   }`}
                   style={{
