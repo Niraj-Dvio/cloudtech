@@ -41,7 +41,7 @@ export function CompanyStatsSection() {
           {stats.map((stat, index) => (
             <div
               key={index}
-              className="stat-item opacity-0 translate-y-8 duration-1000 ease-out text-center p-8 rounded-2xl border border-white/10 bg-linear-to-br from-white/5 to-white/2 hover:border-white/20 hover:bg-white/10 transition-all cursor-target"
+              className="stat-item opacity-0 translate-y-8 duration-1000 ease-out text-center p-8 rounded-2xl border border-white/10 bg-linear-to-br from-white/5 to-white/2 hover:border-white/20 hover:bg-white/10 transition-all "
             >
               <div className="text-4xl md:text-5xl font-bold bg-linear-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent mb-2">
                 {stat.number}

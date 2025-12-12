@@ -10,7 +10,7 @@ export default function PageHeader({ title, children }) {
         border border-white/20
         bg-[radial-gradient(35%_128px_at_50%_0%,rgba(255,255,255,0.15),rgba(255,255,255,0.05))]
         transition-all duration-1000 ease-out
-        my-12 cursor-target
+        my-12 
       "
     >
       {/* Title Animation */}

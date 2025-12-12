@@ -8,15 +8,14 @@ export function HeroSection() {
     <section className="min-h-screen flex items-center justify-center px-4 py-20 relative">
       <div className="max-w-5xl mx-auto text-center relative z-10 animate-fade-in-hero">
         {/* Badge */}
-        <div className="inline-flex items-center px-4 py-2 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-white text-sm font-medium mb-8 mt-12 animate-fade-in-badge cursor-target">
+        <div className="inline-flex items-center px-4 py-2 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-white text-sm font-medium mb-8 mt-12 animate-fade-in-badge">
           <SectionDot /> Enterprise Cloud Solutions
         </div>
 
         {/* Main Heading */}
         <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-balance mb-6 animate-fade-in-heading leading-tight">
           <span className="text-white">Transform Your Business with </span>
-          <span className="bg-linear-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent cursor-target">
-            {/* <span className="bg-linear-to-r from-teal-400 to-cyan-400 bg-clip-text text-transparent cursor-target"> */}
+          <span className="bg-linear-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
             Cloud Excellence
           </span>
         </h1>
@@ -29,7 +28,7 @@ export function HeroSection() {
 
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16 animate-fade-in-buttons">
-          <Link to="/contact-us" className="cursor-target">
+          <Link to="/contact-us" className="cursor-pointer">
             <Button
               size="lg"
               className="bg-white text-black rounded-full px-8 py-4 text-lg font-medium transition-all duration-300 hover:bg-gray-50 hover:scale-105 hover:shadow-lg group cursor-pointer"
@@ -45,7 +44,7 @@ export function HeroSection() {
           <Button
             variant="outline"
             size="lg"
-            className="rounded-full px-8 py-4 text-lg font-medium border-white/30  text-white transition-all duration-200 hover:scale-105 group bg-transparent cursor-target"
+            className="rounded-full px-8 py-4 text-lg font-medium border-white/30  text-white transition-all duration-200 hover:scale-105 group bg-transparent cursor-pointer"
           >
             <Cloud size={18} className="mr-2" />
             View Services

@@ -86,7 +86,7 @@ export default function ServicesPage() {
             return (
               <div
                 key={index}
-                className="p-8 rounded-2xl border border-white/10 bg-linear-to-br from-white/5 to-white/2 hover:border-white/20 hover:bg-white/10 transition-all duration-300 cursor-target"
+                className="p-8 rounded-2xl border border-white/10 bg-linear-to-br from-white/5 to-white/2 hover:border-white/20 hover:bg-white/10 transition-all duration-300"
               >
                 <div className="flex items-start gap-4 mb-6">
                   <div className="p-3 rounded-lg bg-linear-to-br from-blue-400 to-purple-500 text-white">

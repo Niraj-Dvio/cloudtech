@@ -67,7 +67,7 @@ export default function BlogsPage() {
           {blogPosts.map((post, index) => (
             <article
               key={index}
-              className="p-6 rounded-xl border border-white/10 bg-linear-to-br from-white/5 to-white/2 hover:border-white/20 hover:bg-white/10 transition-all duration-300 group cursor-target"
+              className="p-6 rounded-xl border border-white/10 bg-linear-to-br from-white/5 to-white/2 hover:border-white/20 hover:bg-white/10 transition-all duration-300 group "
             >
               <div className="inline-block px-3 py-1 rounded-full bg-blue-500/20 text-blue-300 text-xs font-semibold mb-4">
                 {post.category}

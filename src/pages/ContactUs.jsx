@@ -33,17 +33,17 @@ export default function ContactUsPage() {
         </PageHeader>
 
         <div className="grid md:grid-cols-3 gap-8 mb-16 ">
-          <div className="p-6 rounded-xl border border-white/10 bg-white/5 cursor-target">
+          <div className="p-6 rounded-xl border border-white/10 bg-white/5">
             <Mail className="text-blue-400 mb-4" size={32} />
             <h3 className="text-lg font-semibold text-white mb-2">Email</h3>
             <p className="text-white/70">hello@cloudtech.com</p>
           </div>
-          <div className="p-6 rounded-xl border border-white/10 bg-white/5 cursor-target">
+          <div className="p-6 rounded-xl border border-white/10 bg-white/5">
             <Phone className="text-blue-400 mb-4" size={32} />
             <h3 className="text-lg font-semibold text-white mb-2">Phone</h3>
             <p className="text-white/70">+1 (555) 123-4567</p>
           </div>
-          <div className="p-6 rounded-xl border border-white/10 bg-white/5 cursor-target">
+          <div className="p-6 rounded-xl border border-white/10 bg-white/5">
             <MapPin className="text-blue-400 mb-4" size={32} />
             <h3 className="text-lg font-semibold text-white mb-2">Location</h3>
             <p className="text-white/70">Global Presence</p>
@@ -121,7 +121,7 @@ export default function ContactUsPage() {
 
           <button
             type="submit"
-            className="w-full px-6 py-3 bg-linear-to-r from-blue-400 to-purple-500 text-white font-semibold rounded-lg hover:from-blue-600 hover:to-blue-600 transition-all duration-300 cursor-target"
+            className="w-full px-6 py-3 bg-linear-to-r from-blue-400 to-purple-500 text-white font-semibold rounded-lg hover:from-blue-600 hover:to-blue-600 transition-all duration-300"
           >
             Send Message
           </button>

@@ -35,7 +35,7 @@ export function CTASection() {
       className="relative py-8 px-4 sm:px-6 lg:px-8 mb-32"
     >
       <div className="relative max-w-4xl mx-auto ">
-        <div className="fade-in-element opacity-0 translate-y-8 transition-all duration-1000 ease-out text-center p-8 md:p-10 rounded-3xl border border-white/20 bg-[radial-gradient(35%_128px_at_50%_0%,theme(backgroundColor.white/15%),theme(backgroundColor.white/5%))] cursor-target">
+        <div className="fade-in-element opacity-0 translate-y-8 transition-all duration-1000 ease-out text-center p-8 md:p-10 rounded-3xl border border-white/20 bg-[radial-gradient(35%_128px_at_50%_0%,theme(backgroundColor.white/15%),theme(backgroundColor.white/5%))]">
           <h3 className="text-2xl md:text-3xl lg:text-4xl font-light text-white mb-6 text-balance leading-tight">
             Ready to transform your business's{" "}
             <span className="font-medium italic bg-linear-to-r from-white to-slate-200 bg-clip-text text-transparent">
